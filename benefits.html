@@ -15,23 +15,41 @@
 
 <body>
 
+<div class="dropdown">
+  <i class="ion-navicon-round" onclick="myFunction()" id="dropbtn"></i>
+  <a href="index.html"><i class="ion-ios-home" id="home"></i></a>
+    <div id="myDropdown" class="dropdown-content">
+      <div class="dropdown-container">
+        <a href="#" class="ion-close-round" id="closebtn"></a>
+        <a href="home.html">O Wannatrip</a>
+        <a href="benefits.html">Benefícios</a>
+        <a href="perguntas.html">Perguntas</a>
+        <a href="#">Contato</a>
+          <div class="dropdown-social">
+            <a href="#"><i class="ion-social-instagram-outline"></i></a>
+            <a href="#"><i class="ion-social-facebook"></i></a>
+          </div>
+      </div>
+    </div>
+</div>
+
 <div class="jumbotron">
-  <div class="fixed_btn">
+  <!--<div class="fixed_btn">
     <p>Faça parte</p>
-  </div>
+  </div>-->
     <div class="first_title">
       <p>Wannatrip</p>
       <h4>Benefícios</h4>
     </div>
 </div>
 
-<div class="menu_bar_wrapper">
+<!--<div class="menu_bar_wrapper">
   <div class="menu_bar">
     <a href="index.html"><h5 id="about">Sobre nós</h5></a>
     <a href="benefits.html"><h5 id="benefits">Benefícios</h5></a>
     <a href="perguntas.html"><h5 id="questions">Perguntas</h5></a>
   </div>
-</div>
+</div>-->
 
 <div class="upper_wrapper">
   <div class="upper_title">
@@ -119,5 +137,9 @@
   </div>
 </div>
 
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Javascript -->
+<script src="index.js"></script>
 </body>
 </html>
