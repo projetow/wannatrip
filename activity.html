@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:light,regular,semibold,bold,extrabold|Montserrat:extralight,light,regular,medium,semibold,bold,black"/>
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+  <meta name="description" content="Passeios e atividades de lazer">
+  <meta name="keywords" content="viagem, turismo, passeios, atividades, lazer">
+  <link href="activity.css" type="text/css" rel="stylesheet">
+  <link href="activity_mobile.css" type="text/css" rel="stylesheet" media="screen and (max-width: 460px)">
+  <title>Atividades incríveis e experiências únicas</title>
+</head>
+
+<body>
+<!--<div class="header">
+  <a href="#"><i class="ion-arrow-left-c"></i></a>
+  <p>Atividade</p>
+</div>-->
+<div class="dropdown">
+  <i class="ion-navicon-round" onclick="myFunction()" id="dropbtn"></i>
+  <a href="index.html"><i class="ion-ios-home" id="home"></i></a>
+    <div id="myDropdown" class="dropdown-content">
+      <div class="dropdown-container">
+  	    <a href="#" class="ion-close-round" id="closebtn"></a>
+        <a href="home.html">O Wannatrip</a>
+        <a href="benefits.html">Benefícios</a>
+        <a href="perguntas.html">Perguntas</a>
+        <a href="colabore.html">Colabore</a>
+          <div class="dropdown-social">
+            <a href="#"><i class="ion-social-instagram-outline"></i></a>
+            <a href="#"><i class="ion-social-facebook"></i></a>
+          </div>
+      </div>
+  	</div>
+</div>
+
+<div class="jumbotron">
+  <div class="act_img_1 slider_img_small"></div>
+  <div class="act_img_2 slider_img_small"></div>
+  <div class="act_img_3 slider_img_small"></div>
+  <div class="act_img_4 slider_img_small"></div>
+  <div class="act_img_5 slider_img_small"></div>
+</div>
+<div class="activity_content">
+  <h3>R$50</h3>
+  <div class="activity_title">
+    <h4>Trilha do mirante</h4>
+    <p>Paranapiacaba</p>
+  </div>
+  <a href="#openmodal" class="modal_btn"><i class="ion-android-calendar"></i></a>
+</div>
+
+<div id="openmodal" class="modal_box">
+  <div class="modal_content">
+    <div class="modal_title">
+      <h3>Datas</h3>
+      <a href="#close" title="close" class="close">X</a>
+    </div>
+    <div class="date_box">
+
+      <div class="date_title">
+        <label for="data">27 de outubro</label>
+        <input type="radio" name="data" value="27/10"/>
+      </div>
+
+      <div class="date_title">
+        <label for="data">28 de outubro</label>
+        <input type="radio" name="data" value="28/10"/>
+      </div>
+
+      <div class="date_title">
+        <label for="data">30 de outubro</label>
+        <input type="radio" name="data" value="30/10"/>
+      </div>
+
+      <div class="date_title">
+        <label for="data">01 de novembro</label>
+        <input type="radio" name="data" value="01/11"/>
+      </div>
+
+      <div class="date_title">
+        <label for="data">05 de novembro</label>
+        <input type="radio" name="data" value="05/11"/>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="content_title">
+  <h4>Fotos</h4>
+</div>
+
+<div class="slider_photo_img_wrapper">
+  <div class="act_img_1 slider_img_small"></div>
+  <div class="act_img_2 slider_img_small"></div>
+  <div class=" act_img_3 slider_img_small"></div>
+  <div class=" act_img_4 slider_img_small"></div>
+  <div class=" act_img_5 slider_img_small"></div>
+</div>
+
+<div class="content_title">
+  <h4>Descrição</h4>
+</div>
+<div class="description_content">
+  <p>A mais bela queda natural encontrada nas escarpas inclinadas
+  da Serra do Mar. O percurso é rico em fauna, concentração ecológica
+  , biomas e animais nativos.</p>
+</div>
+
+<div class="content_title">
+  <h4>Icons</h4>
+</div>
+<div class="description_content_icon">
+  <div class="icon_group">
+    <i class="ion-android-walk"></i>
+    <p>Trilha</p>
+  </div>
+  <div class="icon_group">
+    <i class="ion-waterdrop"></i>
+    <p>Cachoeiras</p>
+  </div>
+  <div class="icon_group">
+    <i class="ion-leaf"></i>
+    <p>Natureza</p>
+  </div>
+  <div class="icon_group">
+    <i class="ion-ios-cloud"></i>
+    <p>Névoa</p>
+  </div>
+</div>
+
+<div class="content_title">
+  <h4>Horário</h4>
+</div>
+<div class="description_content">
+  <p>Saída para a trilha: 09:00</p>
+  <p>*se programe para chegar 30 minutos antes</p>
+</div>
+
+<div class="content_title">
+  <h4>Ponto de encontro</h4>
+</div>
+<div class="description_content">
+  <p>Quem vier de transporte público poderá nos encontrar
+  na estação de trem Rio Grande da Serra, linha 10 turquesa.
+  Quem for de carro pode ir direto até Paranapiacaba e deixar
+  o carro no estacionamento local, que é gratuito.
+  Iremos nos reunir na parte alta da vila.</p>
+</div>
+
+<div class="content_title">
+  <h4>Vestimentas</h4>
+</div>
+<div class="description_content_icon">
+  <div class="icon_group">
+    <i class="ion-tshirt-outline"></i>
+    <p>Roupas leves</p>
+  </div>
+  <div class="icon_group">
+    <i class="ion-tshirt"></i>
+    <p>Roupa de banho</p>
+  </div>
+  <div class="icon_group">
+    <i class="ion-ios-glasses"></i>
+    <p>Óculos de sol</p>
+  </div>
+</div>
+
+<div class="content_title">
+  <h4>O que levar</h4>
+</div>
+<div class="description_content_icon">
+  <div class="icon_group">
+    <i class="ion-ios-nutrition"></i>
+    <p>Comidas leves</p>
+  </div>
+  <div class="icon_group">
+    <i class="ion-soup-can"></i>
+    <p>Muita água</p>
+  </div>
+  <div class="icon_group">
+    <i class="ion-camera"></i>
+    <p>Camera fotográfica</p>
+  </div>
+</div>
+
+<!-- jQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!--Slick -->
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<!-- Javascript -->
+<script src="index.js"></script>
+</body>
+</html>

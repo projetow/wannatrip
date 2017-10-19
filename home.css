@@ -17,6 +17,7 @@ p{
   background-size: cover;
   height: 75vh;
   position: relative;
+	margin-bottom: 7%;
 }
 .fixed_btn{
   position: fixed;

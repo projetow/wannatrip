@@ -6,6 +6,9 @@
 body{
   font-family: 'Montserrat', sans-serif;
 }
+a{
+	text-decoration: none;
+}
 .navbar_move{
 	background-color: rgba(0, 0, 0, 0.6);
 	transition: 0.5s;
@@ -78,11 +81,11 @@ body{
 	color: #FFF;
 	margin-left: 7%;
 }
-.first_title p{
-	font-size: 1.6em;
-}
 .first_title h4{
-	font-size: 2em;
+	font-size: 2.1em;
+}
+.first_title p{
+	font-size: 1.4em;
 }
 .upper_title, .middle_title{
 	margin-left: 7%;
@@ -97,52 +100,77 @@ body{
 	display: flex;
 	flex-flow: row nowrap;
 	overflow: hidden;
-	margin-bottom: 15%;
+	margin-bottom: 7%;
 	width: 100%;
 }
 .upper_content > div, .middle_content > div{
 	width: 100%;
 	min-width: 250px;
+	border-bottom: 1px solid #D3D7D8;
 }
 .upper_wrapper,
 .middle_wrapper{
 	margin-right: 5%;
+	padding-bottom: 25px;
 }
 .activity_img{
-	width: 100%;
+	/*width: 100%;
 	height: 200px;
-	background-color: pink;
+	background-color: pink;*/
 	display: flex;
 	flex-flow: column;
 	justify-content: flex-end;
+	border-radius: 2px;
 	margin-bottom: 10px;
 }
+.upper_img_1{
+	background: url('imagens/activity_1.jpg') no-repeat;
+	background-size: cover;
+	height: 200px;
+}
+.upper_img_2{
+	background: url('imagens/activity_2.jpg') no-repeat;
+	background-size: cover;
+	height: 200px;
+}
 .activity_img > p{
+	font-size: .85em;
 	text-align: right;
+	width: 65px;
+	height: 23px;
+	padding: 8px 7px 0 5%;
 	margin-bottom: 5%;
-	margin-right: 5%;
 	color: #FFF;
+	background-color: rgba(0,0,0,.5);
 }
 
 .upper_img_text, .middle_img_text{
 	width: 100%;
 }
 .upper_content-text-title{
-	font-weight: 600;
+	font-weight: 500;
 	font-size: .8em;
-	margin-bottom: 1%;
+	margin-bottom: 2%;
 }
 .upper_content-text-subtitle{
 	font-size: .8em;
 }
 .middle_content-text-title{
-	font-weight: 700;
-	font-size: .9em;
+	font-weight: 500;
+	font-size: .8em;
 }
 .middle_activity_img{
 	width: 100%;
 	max-width: 350px;
 	height: 170px;
-	background-color: blue;
 	margin-bottom: 10px;
+	border-radius: 2px;
+}
+.middle_img_1{
+	background: url('imagens/paranapiacaba.jpg') no-repeat;
+	background-size: cover;
+}
+.middle_img_2{
+	background: url('imagens/billings.jpg') no-repeat;
+	background-size: cover;
 }

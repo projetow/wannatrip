@@ -74,7 +74,7 @@ p{
 .jumbotron{
   background: url('imagens/benefits_2.jpg') no-repeat center center;
   background-size: cover;
-  height: 75vh;
+  height: 65vh;
   margin-bottom: 15%;
 }
 /*.fixed_btn{
@@ -96,18 +96,17 @@ p{
   text-align: center;
 }*/
 .first_title{
-  position: absolute;
-  margin-top: 180px;
-	margin-left: 0;
-  padding: 0 8%;
+	width: 80%;
+	margin-top: 50%;
+	margin-left: 7%;
   color: #FFF;
 }
-.first_title p{
-  font-size: 1.3em;
-  letter-spacing: 1px;
-}
 .first_title h4{
-  font-size: 2.7em;
+  font-size: 2.1em;
+}
+.first_title p{
+  font-size: 1.4em;
+  letter-spacing: 1px;
 }
 
 /*menu bar*/
@@ -147,7 +146,7 @@ p{
   justify-content: flex-start;
 }
 .upper_title, .bottom_title{
-	font-size: 1.6em;
+	font-size: 1.5em;
 	margin-left: 5%;
   margin-bottom: 15%;
 	width: 80%;
@@ -186,6 +185,10 @@ p{
   margin-bottom: 20%;
 }
 .middle_content h3{
-	font-size: 1.8em;
+	font-size: 1.5em;
 	margin-bottom: 3%;
+}
+.middle_content p{
+	width: 85%;
+	margin: 3% auto;
 }

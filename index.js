@@ -52,4 +52,22 @@ $(document).ready(function(){
 			}
 		]
   });
+
+  $('.jumbotron').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,
+		arrows: false,
+		fade: true,
+		asNavFor: '.slider_photo_img_wrapper'
+	});
+
+	$('.slider_photo_img_wrapper').slick({
+		arrows: false,
+		zIndex: 0,
+		infinite: false,
+		slidesToShow: 4,
+		asNavFor: '.jumbotron',
+		focusOnSelect: true
+	});
+
 });

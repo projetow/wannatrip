@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+	/*border: 1px solid #333;*/
+}
+
+html{
+	height: 100%;
+	min-height: 100%;
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	height: 100%;
+}
+
+h3{
+	font-size: 1.2em;
+}
+p{
+	font-size: .95em;
+}
+
+.navbar_move{
+	background-color: rgba(0, 0, 0, 0.6);
+	transition: 0.5s;
+}
+#dropbtn, #home {
+	color: #FFF;
+	font-size: 1.7rem;
+	cursor: pointer;
+	z-index: 1;
+	display: inline-block;
+	margin: 20px 25px;
+}
+#dropbtn{
+	float: right;
+}
+.dropdown {
+	position: fixed;
+	display: inline-block;
+	width: 100%;
+	z-index: 1;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(74, 186, 234, .9);
+	color: #000;
+	width: 100%;
+	height: 100vh;
+}
+.dropdown-container{
+	display: flex;
+	flex-flow: column wrap;
+	height: 100%;
+}
+.dropdown-container a{
+	font-size: 1.2em;
+	font-weight: 470;
+	color: #FFF;
+	margin: 3% 8%;
+	text-decoration: none;
+}
+.dropdown-container a:first-child{
+	font-size: 1.5em;
+	align-self: flex-end;
+	margin-right: 5%;
+	padding: 2%;
+}
+.dropdown-social{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+}
+.dropdown-social i{
+	display: inline-block;
+	font-size: 1.1em;
+	margin-bottom: 7px;
+}
+
+.container{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.jumbotron {
+	background-color: #61A562;
+  height: 80%;
+  display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	color: #FFF;
+}
+.jumbotron-text {
+	text-align: center;
+}
+.jumbotron-text h3{
+	font-size: 2.4em;
+	line-height: 1.1em;
+	margin-bottom: 5%;
+}
+.jumbotron-text p:first-of-type{
+	margin-bottom: 18%;
+}
+.jumbotron-text i{
+	font-size: 2.4em;
+}
+.jumbotron-text p:last-of-type{
+	font-weight: 500;
+}
+
+.social-title{
+	padding: 10% 0;
+	color: #484D49;
+	background-color: #E6ECE6;
+	text-align: center;
+	margin-bottom: 10%;
+}
+.social-title h3, .social-title p{
+	margin-bottom: 5%;
+}
+.social-title i{
+	font-size: 1.8em;
+	margin: 0 5%;
+	color: #464043;
+}
+
+.form-title{
+  text-align: center;
+	color: #464043;
+	width: 70%;
+	margin: 0 auto;
+	padding-bottom: 10%;
+	border-bottom: 1px solid #D6DCD6;
+	font-weight: 500;
+}
+
+
+fieldset{
+	margin: 5% 2% 20% 2%;
+	border: none;
+}
+legend{
+	color: #4F677C;
+}
+form div{
+	margin: 10% 3%;
+	text-align: center;
+}
+form div label{
+	display: inline-block;
+	margin-bottom: 5px;
+	color: #6B6D6A;
+}
+.input{
+	width: 90%;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+	padding: 5px 0;
+	border: 1px solid #D9D5DB;
+	margin-bottom: 8%;
+	text-align: center;
+}
+.input_tel{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.2em;
+	padding: 5px 0;
+	border: 1px solid #D9D5DB;
+	margin-bottom: 8%;
+	text-align: center;
+}
+.submit{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+	padding: 10px 20px;
+	background-color: #5CD354;
+	color: #FFF;
+	border: none;
+	cursor: pointer;
+}

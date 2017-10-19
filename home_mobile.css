@@ -72,9 +72,11 @@ p{
 	margin-bottom: 7px;
 }
 .jumbotron{
-  background: url('imagens/main.jpg') no-repeat center center;
+  background: url('imagens/empresa1.jpg') no-repeat center center;
   background-size: cover;
-  height: 75vh;
+  height: 65vh;
+	display: flex;
+	flex-direction: column;
 	margin-bottom: 15%;
 }
 /*.fixed_btn{
@@ -96,18 +98,16 @@ p{
   text-align: center;
 }*/
 .first_title{
-  position: absolute;
-	width: 90%;
-  margin-top: 180px;
-	margin-left: 6%;
+	width: 80%;
+	margin-top: 50%;
+	margin-left: 7%;
   color: #FFF;
 }
-.first_title p{
-  font-size: 1.3em;
-  letter-spacing: 1px;
-}
 .first_title h4{
-  font-size: 2.7em;
+  font-size: 2.1em;
+}
+.first_title p{
+  font-size: 1.4em;
 }
 
 /*menu bar*/
@@ -145,7 +145,7 @@ p{
   margin-bottom: 10%;
 }
 .upper_content_title, .upper_content_text{
-  width: 90%;
+  width: 85%;
   margin: 0 auto;
   text-align: center;
 }
@@ -162,6 +162,7 @@ p{
 .upper_support_wrapper{
   display: flex;
 	flex-flow: row wrap;
+	margin-bottom: 10%;
 }
 .upper_support_img{
   background: url('imagens/parceiro.jpg') no-repeat center center;
@@ -174,15 +175,15 @@ p{
 	height: auto;
 	width: 80%;
 	font-size: 1.6em;
-	margin: 0 7% 8% 7%;
+	margin: 0 7% 8% 8%;
 }
 .upper_support_text{
 	height: auto;
-	width: 90%;
-  margin: 0 7%
+	width: 80%;
+  margin: 0 8%;
 }
 .upper_support_text p{
-	margin-bottom: 10%;
+	margin-bottom: 5%;
 }
 /*Fim do upper_support*/
 
@@ -199,14 +200,14 @@ p{
 }*/
 
 .mockup_content{
-	margin: 5% 3% 0 7%;
+	margin: 5% 3% 0 8%;
 	color: #FFF
 }
 .mockup_content_title{
 	display: flex;
 	flex-flow: row wrap;
 	margin-bottom: 7%;
-	font-size: 1.2em;
+	font-size: 1.4em;
 }
 .mockup_content_title h3{
 	width: 60%;
@@ -248,18 +249,18 @@ p{
 }
 .middle_content{
   width: 90%;
-	margin: 15% 0 5% 7%;
-}
-.middle_content p{
-	font-size: 1.2em;
-	font-weight: 500;
-  margin-bottom: 4%;
+	margin: 15% 8% 5% 7%;
 }
 .middle_content h4{
 	font-size: 1.6em;
 	font-weight: 600;
 	width: auto;
 	margin-bottom: 5%;
+}
+.middle_content p{
+	font-size: 1.1em;
+	font-weight: 500;
+  margin-bottom: 4%;
 }
 .middle_img{
 	background: url('imagens/parceiro_bottom_2.jpg') no-repeat center center;
@@ -280,11 +281,12 @@ p{
 .bottom_content h3{
 	font-size: 1.6em;
 	margin-bottom: 8%;
-	margin-left: 7%;
+	margin-left: 8%;
 }
 .bottom_content p{
-	margin-bottom: 4%;
-	margin-left: 7%;
+	height: auto;
+	width: 80%;
+  margin: 5% 8%;
 }
 /*Final do bottom_wrapper*/
 
@@ -295,9 +297,10 @@ p{
 }
 .grid_left_box{
   margin-bottom: 5%;
+	display: none;
 }
 .grid_left_box_content{
-	width: 75%;
+	width: 65%;
 	margin: 0 auto;
   text-align: center;
 }
@@ -307,12 +310,13 @@ p{
 }
 .grid_left_box_content p{
 	width: auto;
+	margin-bottom: 5%;
 }
 
 .grid_center_img{
   width: 50%;
-  height: 45vh;
-	background: url('imagens/johnson_test.jpg') no-repeat center center;
+	height: 45vh;
+	background: url('imagens/felipe_paranapia.jpg') no-repeat center center;
 	background-size: cover;
 }
 .grid_right_img{
