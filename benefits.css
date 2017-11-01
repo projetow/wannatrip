@@ -12,13 +12,50 @@ body{
 p{
 	line-height: 1.5em;
 }
+.dropdown {
+	display: none;
+}
+
+.navigation {
+	position: fixed;
+	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+	justify-content: flex-end;
+	height: auto;
+	background-color: rgba(0, 0, 0, 0.6);
+	z-index: 1;
+}
+.navigation li {
+	list-style-type: none;
+}
+.navigation a {
+	display: block;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: .9em;
+	letter-spacing: .1em;
+	font-weight: 600;
+	color: #FFF;
+	padding: 1.7em 1.4em 1.4em 1.4em;
+}
+.navigation li:nth-child(1) {
+	margin-right: 40%;
+}
+.navigation li:nth-child(5) {
+	margin-right: 7%;
+}
+
 .jumbotron{
   background: url('imagens/benefits_2.jpg') no-repeat center center;
-  background-size: cover;
-  height: 75vh;
-  position: relative;
+	background-size: cover;
+  height: 80vh;
+  display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-bottom: 6%;
 }
-.fixed_btn{
+/*.fixed_btn{
   position: fixed;
   right: 0;
   width: 14%;
@@ -36,17 +73,13 @@ p{
   text-transform: uppercase;
   font-size: .85em;
   word-spacing: .2em;
-}
+}*/
 .first_title{
-  position: absolute;
-  width: 35%;
-  margin-top: 13%;
-  margin-left: 12%;
+  margin-left: 7%;
   color: #FFF;
 }
 .first_title p{
-  font-size: 1.3em;
-  letter-spacing: 1px;
+  font-size: 1.4em;
 }
 .first_title h4{
   font-size: 4em;
